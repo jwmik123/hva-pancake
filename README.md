@@ -1,8 +1,8 @@
 ## Student Information
 
-First Name: Replace-this-with-your-first-name
+First Name: Joël
 
-Last Name: Replace-this-with-your-first-last-name
+Last Name: Mik
 
 Student number: Replace-this-with-your-student-number
 
