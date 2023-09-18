@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="022078b2-acad-4886-8318-634c36420342" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PancakeSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pancakeSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pancakeSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PancakeSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pancakeSorter/PancakeSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pancakeSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PancakeSorterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.3/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -62,6 +62,33 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.PancakeSorterTest">
+    <configuration name="PancakeSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pancakeSorter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PancakeSorterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PancakeSorterTest.testEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pancakeSorter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PancakeSorterTest" />
+      <option name="METHOD_NAME" value="testEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PancakeSorterTest" />
+        <item itemvalue="JUnit.PancakeSorterTest.testEmptyList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +100,7 @@
       <workItem from="1694853155865" duration="2153000" />
       <workItem from="1694855369826" duration="189000" />
       <workItem from="1694855609774" duration="1277000" />
-      <workItem from="1695042263389" duration="230000" />
+      <workItem from="1695042263389" duration="1357000" />
     </task>
     <servers />
   </component>
