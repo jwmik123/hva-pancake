@@ -22,6 +22,8 @@ d6b32b0x 2023-09-16     Feat: Added tests using TDD
 
 A dated screenshot of the overview of the following  quality gates(https://docs.sonarqube.org/latest/user-guide/quality-gates/): Reliability, Security,Maintainability, Coverage and Duplications. Provide a short discussion of the results.
 
+
+Most of the quality gates are about maintanability of the Sort function. The function is not very readable according to Sonarqube. Also, inside the test class there is no need for the 'public' modifier.
 ![Quality Gates image](quality-gates.png)  
 
 ### 3. Test Driven Development
