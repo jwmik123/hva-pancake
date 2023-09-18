@@ -47,9 +47,9 @@ public void testReverseOrderList() {
         }
 ```
 
-[link-to-your-class-under-test](/src/main/java/org/pancakeSorter)
+[link-to-your-class-under-test](/src/main/java/org/pancakeSorter/PancakeSorter.java)
 
-[link-to-your-test-class](/src/test/java/PancakeSorterTest)
+[link-to-your-test-class](/src/test/java/PancakeSorterTest.java)
 
 ### 4. Code Reviews
 
