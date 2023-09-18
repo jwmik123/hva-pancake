@@ -22,7 +22,7 @@ d6b32b0x 2023-09-16     Feat: Added tests using TDD
 
 A dated screenshot of the overview of the following  quality gates(https://docs.sonarqube.org/latest/user-guide/quality-gates/): Reliability, Security,Maintainability, Coverage and Duplications. Provide a short discussion of the results.
 
-![](/replace-this-with-path-to-your-png-file/dated-screenshot-sonarqube-qualitygates.png)  
+![](/quality-gates.png)  
 
 ### 3. Test Driven Development
 
