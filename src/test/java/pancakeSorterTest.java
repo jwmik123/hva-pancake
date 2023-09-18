@@ -1,9 +1,11 @@
+import org.example.PancakeSorter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.Arrays;
+import java.util.List;
 
-public class pancakeSorterTest {
+public class PancakeSorterTest {
 
     PancakeSorter pancakeSorter;
 
@@ -14,31 +16,26 @@ public class pancakeSorterTest {
 
     @Test
     public void testEmptyList() {
-        PancakeSorter sorter = new PancakeSorter();
-        assertTrue(sorter.sort(Arrays.asList()).isEmpty());
+        assertTrue(pancakeSorter.sort(List.of()).isEmpty());
     }
 
     @Test
     public void testSingleElement() {
-        PancakeSorter sorter = new PancakeSorter();
-        assertEquals(Arrays.asList(1), sorter.sort(Arrays.asList(1)));
+        assertEquals(List.of(1), pancakeSorter.sort(List.of(1)));
     }
 
     @Test
     public void testSortedList() {
-        PancakeSorter sorter = new PancakeSorter();
-        assertEquals(Arrays.asList(1, 2, 3, 4, 5), sorter.sort(Arrays.asList(1, 2, 3, 4, 5)));
+        assertEquals(Arrays.asList(1, 2, 3, 4, 5), pancakeSorter.sort(Arrays.asList(1, 2, 3, 4, 5)));
     }
 
     @Test
     public void testUnsortedList() {
-        PancakeSorter sorter = new PancakeSorter();
-        assertEquals(Arrays.asList(1, 2, 3, 4, 5), sorter.sort(Arrays.asList(3, 4, 2, 1, 5)));
+        assertEquals(Arrays.asList(1, 2, 3, 4, 5), pancakeSorter.sort(Arrays.asList(3, 4, 2, 1, 5)));
     }
 
     @Test
     public void testReverseOrderList() {
-        PancakeSorter sorter = new PancakeSorter();
-        assertEquals(Arrays.asList(1, 2, 3, 4, 5), sorter.sort(Arrays.asList(5, 4, 3, 2, 1)));
+        assertEquals(Arrays.asList(1, 2, 3, 4, 5), pancakeSorter.sort(Arrays.asList(5, 4, 3, 2, 1)));
     }
 }
