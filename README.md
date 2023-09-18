@@ -11,8 +11,12 @@ Student number: Replace-this-with-your-student-number
 ### 1. Git log
 
 ```
-Place here the results of the following command: git log --pretty=format:"%hx %ad%x09%s" --date=short`
+05dc95dx 2023-09-18     Update: Changed the test class to use assertArrayEquals
+510d41bx 2023-09-18     Feat: Added @BeforeEach to the test class
+d6b32b0x 2023-09-16     Feat: Added tests using TDD
+894ac8ex 2023-09-16     Added README.md
 ```
+#### Committed the sort function together with the Update of the test class.
 
 ### 2. Sonarqube
 
@@ -24,13 +28,28 @@ A dated screenshot of the overview of the following  quality gates(https://docs.
 
 Your best test class code snippets with a rationale why the unit tests are “good” tests.  Provide a link to the Test class and the class under test in Git.
 
+Answer: The first test tests if the function works when the list is already sorted. The second test tests if the function works when the list is unsorted. The third test tests if the function works when the list is in reverse order. The tests are good because they test the different cases of the function.
+
 ```java
-Add your code snippets here.
+@Test
+public void testSortedList() {
+        assertArrayEquals(new int[]{1, 2, 3, 4, 5}, pancakeSorter.sort(new int[]{1, 2, 3, 4, 5}, 5));
+        }
+
+@Test
+public void testUnsortedList() {
+        assertArrayEquals(new int[]{1, 2, 3, 4, 5}, pancakeSorter.sort(new int[]{3, 4, 2, 1, 5}, 5));
+        }
+
+@Test
+public void testReverseOrderList() {
+        assertArrayEquals(new int[]{1, 2, 3, 4, 5}, pancakeSorter.sort(new int[]{5, 4, 3, 2, 1}, 5));
+        }
 ```
 
-[link-to-your-class-under-test](/somerepo/path-to-file)
+[link-to-your-class-under-test](/src/main/java/org/pancakeSorter)
 
-[link-to-your-test-class](/somerepo/path-to-file)
+[link-to-your-test-class](/src/test/java/PancakeSorterTest)
 
 ### 4. Code Reviews
 
