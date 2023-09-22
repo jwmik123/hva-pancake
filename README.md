@@ -49,7 +49,7 @@ public void testReverseOrderList() {
         }
 ```
 
-[link-to-your-class-under-test](/src/main/java/org/pancakeSorter/PancakeSorter.java)
+[link-to-your-class-under-test](/src/main/java/org/pancakesorter/PancakeSorter.java)
 
 [link-to-your-test-class](/src/test/java/PancakeSorterTest.java)
 

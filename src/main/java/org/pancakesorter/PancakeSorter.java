@@ -1,4 +1,10 @@
-package org.pancakeSorter;
+package org.pancakesorter;
+
+
+/**
+ * PancakeSorter class
+ * This class will perform a pancake sort on an array of integers.
+ */
 
 public class PancakeSorter {
     // Reverse the array
@@ -38,6 +44,9 @@ public class PancakeSorter {
         return arr;
     }
 
+    /**
+     * Main method is empty
+     */
     public static void main(String[] args) {
 
     }
