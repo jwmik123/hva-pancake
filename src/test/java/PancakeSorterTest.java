@@ -8,6 +8,7 @@ class PancakeSorterTest {
 
     PancakeSorter pancakeSorter;
 
+    // TODO: make sure this @beforeeach works.
     @BeforeEach
     void setUp() {
         pancakeSorter = new PancakeSorter();
